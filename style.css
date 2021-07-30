@@ -1,0 +1,42 @@
+h1{
+    color :deepskyblue;
+}
+
+/**{
+    border :solid;
+}*/
+
+
+.header{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+text-align: center;
+}
+
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(15, 32, 51);
+}
